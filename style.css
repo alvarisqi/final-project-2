@@ -1,0 +1,964 @@
+/* Navbar */
+.navbar-nav{
+    color: #33CCCC;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50px;   
+}
+.navbar-brand {
+    color: #33CCCC;
+}
+.navbar-nav{
+    color: #33CCCC;
+}
+.nav-link{
+    color: #33CCCC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+li{
+    color:  #33CCCC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+#home{
+    color:  #33CCCC;
+}
+#produk{
+    color:  #33CCCC;
+}
+#tentang{
+    color:  #33CCCC;
+}
+#kontak{
+    color:  #33CCCC;
+}
+.navbar-button button{
+    width: 135px;
+    height: 50px;
+    border-radius: 25px;
+    color: #33CCCC;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+}
+.login-button{
+    width: 100px;
+    height: 50px;
+    border: 2px solid #33CCCC;
+    border-radius: 25px;
+    background-color: white;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #33CCCC;
+}
+.signUp-button{
+    width: 100px;
+    height: 50px;
+    background: #BDFBFB;
+    border-radius: 25px;
+    border: white;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    margin-right: -37px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #33CCCC;
+    margin-left: 15px;
+}
+
+
+/* Content */
+.main-card{
+    background-color:#BDFBFB;
+    height: 611px;
+    border-radius: 60px;
+    margin-top: 50px; 
+    width: 100%;
+}
+.card-left{
+    width: 375px;
+    height: 245px;
+    padding-left: 100px;
+    padding-top: 100px;
+    float: left;
+}
+.main-text{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 56px;
+    color: #33CCCC;
+   
+}   
+.second-text{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    color: #000000;
+}
+.get-button{
+    border: 2px solid #33CCCC;
+    border-radius: 32.5px;
+    width: 200px;
+    height: 65px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #33CCCC;
+    background-color: #fff;
+    margin-top: 25px;
+}
+/* text  title */
+h5{
+    position: relative;
+    font-size: 10vw;
+    color: #014b4b;
+    -webkit-text-stroke: 0.3vw #33CCCC;
+    text-transform: uppercase;
+} 
+h5::before{
+    content:attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #083d24;
+    -webkit-text-stroke: 0vw #05e3fc;
+    border-right: 2px solid #125c39;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+/* card right */
+.card-right{
+    width: 800px;
+    height: 550px;
+
+}
+/* card one */
+.card-1{
+    width: 75px;
+    height: 75px;
+    margin-left: 475px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    float: left;
+    position: absolute;
+    margin-top: 36px;  
+}
+.icon{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 23px;
+}
+/* card two */
+.card-2{
+    width: 300px;
+    height: 100px;
+    margin-left: 475px;
+    position: absolute;
+    margin-top: 136px;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+#pro{
+    margin-left: 20px;
+    margin-top: 24px;
+    float: left;
+}
+.text-c2{
+    position: absolute;
+    width: 230px;
+    height: 45px;
+    margin-left: 93px;
+    margin-top: 15px;
+    float: left;
+    color:#33CCCC;
+}
+.text-one{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 10px;
+    position: absolute;
+    
+}
+.text-two{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 35px;
+    color:#060606;
+}
+.text-three{
+    margin-top: 12px;
+    margin-left: 150px; 
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #33CCCC;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    position: absolute;
+    float: left;
+}
+#awan{
+    margin-left: 29px;
+    margin-top: 30px;
+    float: left;
+}
+.get-button-2{
+    border: 2px solid #33CCCC ;
+    border-radius: 32.5px;
+    width: 200px;
+    height: 65px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color:#33CCCC;
+    background-color:white;
+    margin-top: 50px;
+}
+.text-single{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 21px;
+    margin-top: 110px;
+    color:#000000;
+    margin-left: 20.46%;
+    margin-right: 1.11%;
+    float: left;
+    position: absolute;
+}
+#message-image{
+    margin-left: 21px;
+    margin-top: 22px;
+    float: left;
+}
+.card-image{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+.participants-image{
+    margin-left: 20px;
+    margin-top: 20px;
+    /* float: left; */
+
+}
+.participant{
+    position:absolute;
+    margin-left: -60px;
+    margin-top: 80px;
+}
+
+
+
+/* Card 3 */
+.card-3{
+    width: 130px;
+    height: 160px;
+    margin-left: 820px;
+    position: absolute;
+    margin-top: 76px;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+/* Card 4*/
+.card-4{
+    width: 250px;
+    height: 160px;
+    margin-left: 475px;
+    position: absolute;
+    margin-top: 261px;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+/* Card 5 */
+.card-5{
+    width: 300px;
+    height: 100px;
+    margin-top: 261px;
+    margin-left: 756px;
+    position: absolute;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+/* Card 6 */
+.card-6{
+    width: 300px;
+    height: 100px;
+    margin-top: 446px;
+    margin-left: 475px;
+    position: absolute;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.card-7{
+    width: 300px;
+    height: 100px;
+    margin-top: 386px;
+    margin-left: 810px;
+    position:absolute;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.card-8{
+    width: 75px;
+    height: 75px;
+    margin-top: 520px;
+    margin-left: 800px;
+    position: absolute;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+/* Features */
+.elemen{
+    width: 100%;
+    height: 100px;
+    margin-top: 110px;
+    float: left;
+    position: relative;
+    margin-bottom: 150px;
+}
+/* card kiri */
+.card-fea1{
+    width: 532px;
+    height: 100px;
+    float: left;
+}
+.awan1{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.text-content{
+    margin-left:130px;
+    float: left;
+    position: absolute;
+}
+.firstText{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    position: absolute;
+    line-height: 49px;
+    color: #33CCCC;
+    padding-top: 10px;
+
+}
+.secondText{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    margin-top:55px;
+    line-height: 36px;
+}
+/* Card kanan */
+.card-fea2{
+    width: 553px;
+    height: 100px;
+    margin-left: 587px;
+}
+.key{
+    width: 100px;
+    height: 100px;
+    float:right;
+    position: absolute; 
+}
+.text-content2{
+    width: 423px;
+    height: 85px;
+    margin-left: 130px;
+    float: left;
+    position: absolute;
+}
+
+/* Product Features 1  */
+.body-content{
+    width: 100%;
+    height: 575px;
+    float: left;
+    margin-bottom: 150px;
+}
+.card-lf{
+    width: 575px;
+    height: 575px;
+    background: #BDFBFB;
+    border-radius: 60px;
+    margin-left: 112px;
+    float: left;
+}
+.card-product-1{
+    width: 438px;
+    height: 125px;
+    margin-top:108px;
+    margin-left: 69px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-product-2{
+    width: 350px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 258px;
+    margin-left: 113px;
+    position: absolute;
+    float: left;
+    opacity: 0.85;
+    mix-blend-mode: normal;
+}
+.card-product-3{
+    width: 262px;
+    height: 75px;
+    margin-top: 383px;
+    margin-left: 157px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    position: absolute;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+.card-rg{
+    width: 340px;
+    height: 360px;
+    margin-left: 750px;
+    margin-top: 108px;
+}
+.product-image{
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+.text-product{
+    position: absolute;
+    width: 288px;
+    height: 45px;
+    margin-left: 125px;
+    margin-top: 25px;
+    float: left;
+    color:#33CCCC;
+}
+.text-header{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 10px;
+    position: absolute;
+}
+.text-message{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 40px;
+    color:#000000;
+}
+.text-clock{
+    margin-top: 15px;
+    margin-left: 235px; 
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #33CCCC;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    position: absolute;
+    float: left;
+}
+.text-product-2{
+    position: absolute;
+    width: 288px;
+    height: 45px;
+    margin-left: 100px;
+    margin-top: 20px;
+    float: left;
+    color:#33CCCC;
+}
+.text-header-2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 5px;
+    position: absolute;
+}
+.text-message-2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 30px;
+    color:#000000;
+}
+.text-clock-2{
+    margin-top: 7px;
+    margin-left: 174px; 
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #33CCCC;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    position: absolute;
+    float: left;
+}
+.image-three{
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+}
+.text-product-3{
+    position: absolute;
+    width: 288px;
+    height: 45px;
+    margin-left: 80px;
+    margin-top: 10px;
+    float: left;
+    color:#33CCCC;
+}
+.text-header-3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 9px;
+    position: absolute;
+}
+.text-message-3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 16px;
+    margin-top: 28px;
+    color:#000000;
+}
+.text-clock-3{
+    margin-top: 9px;
+    margin-left: 125px; 
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 10px;
+    color: #33CCCC;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    position: absolute;
+    float: left;
+}
+
+/* Product Features 2 */
+.main-body{
+    text-align: center;
+    color: #33CCCC;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+.main-tittle-2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+   
+}
+.body-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 20px;
+    color: #33CCCC;
+}
+.body-text2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: -10px;
+    color: #33CCCC;
+    
+}
+.content-features-2{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 13%;
+    margin-bottom: 11.01%;
+    width: 100%;
+    position: relative;
+    height: 575px;
+    background: #BDFBFB;
+    border-radius: 60px;
+    float: left;
+}
+.card-file{
+    width:75px;
+    height:75px;
+    margin-left: 465px;
+    margin-right: 683px;
+    margin-top: 55px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;
+    float: left;
+}
+.card-people-1{
+    width: 330px;
+    height: 100px;
+    margin-left: 573px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-message{
+    width: 350px;
+    height: 100px;
+    margin-left: 83px;
+    margin-top: 270px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-sales{
+    width: 276px;
+    height: 160px;
+    margin-left: 465px;
+    margin-top: 155px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-upload{
+    width: 300px;
+    height: 100px;
+    margin-left: 765px;
+    margin-top: 155px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;
+    float: left;
+}
+.card-chat{
+    width: 75px;
+    height: 75px;
+    margin-left: 358px;
+    margin-top: 390px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;
+    float: left;
+}
+.card-people-2{
+    width: 300px;
+    height: 100px;
+    margin-left: 465px;
+    margin-top: 340px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;
+    float: left;
+}
+.card-cloud{
+    width: 130px;
+    height: 160px;
+    margin-left: 465px;
+    margin-top: 465px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+
+/* About */
+.about-content{
+    width: 100%;
+    height: 575px;
+    float: left;
+    margin-bottom: 150px;
+}
+.card-lef{
+    width: 340px;
+    height: 360px;
+    float: left;
+    position: absolute;
+}
+.card-rig{
+    width: 575px;
+    height: 575px;
+    background: #BDFBFB;
+    border-radius: 60px;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    float: right;
+}
+.card-cale1{
+    width: 276px;
+    height: 160px;
+    margin-left: 120px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale2{
+    width: 276px;
+    height: 160px;
+    margin-left: 120px;
+    margin-top: 270px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale3{
+    width: 276px;
+    height: 160px;
+    margin-left: 120px;
+    margin-top: 440px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale4{
+    width: 276px;
+    height: 160px;
+    margin-left: 410px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale5{
+    width: 276px;
+    height: 160px;
+    margin-left: 410px;
+    margin-top: 270px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+.card-cale6{
+    width: 276px;
+    height: 160px;
+    margin-left: 410px;
+    margin-top: 440px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+}
+
+
+
+/* Pricing */
+.price{
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100%;
+}
+.price-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+.price-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 20px;
+}
+.price-text2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: -10px;
+    
+}
+.card1 {
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+    background: #BDFBFB;
+    border-radius: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card2 {
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+    background: #BDFBFB;
+    border-radius: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card3 {
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+    background: #BDFBFB;
+    border-radius: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* contact */
+.contact-card{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 13%;
+    margin-bottom: 11.01%;
+    width: 90%;
+    position: center;
+    height: 300px;
+    background: #BDFBFB;
+    border-radius: 60px;
+    float: center;
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+.newslet{
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+
+/* footer */
+#benefit {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#feedback {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#features {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#company {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#team {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#gethelp {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+#termofservice {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+
+#copirek {
+    text-align: center;
+    color: #33CCCC;
+    font-style: normal;
+    font-family: 'Nunito';
+}
